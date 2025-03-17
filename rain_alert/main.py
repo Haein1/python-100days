@@ -9,9 +9,6 @@ w_params = {
 "lon": 108.9286,
 "appid" : api_key
 }
-
-
-
 response = requests.get(end_point, params=w_params)
 
 data = response.json()
